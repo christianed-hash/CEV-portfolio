@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Ed Vincent M. Vasquez | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <header id="siteHeader">
+    <div class="nav-wrap">
+      <div class="logo">
+        CEV
+      </div>
+      <ul class="tabs" id="navTabs">
+        <li><a href="#home" class="nav-link">HOME</a></li>
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+        <li><a href="#skills" class="nav-link">SKILLS</a></li>
+        <li><a href="#projects" class="nav-link">PROJECT</a></li>
+        <li><a href="#contact" class="nav-link">CONTACT</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#contact" class="hire-btn">Hire Me</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false"
+          aria-controls="navTabs">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="status-pill reveal"><span class="dot"></span>Available for opportunities</div>
+        <h1 class="reveal">Hi, I'm <span class="accent">Christian Ed Vincent</span></h1>
+        <p class="role reveal"><span id="typed-role"></span><span class="typed-cursor">|</span></p>
+        <p class="desc reveal">Computer Science student at the University of Bohol, learning to build complete web
+          experiences â€” from the interfaces people click on to the logic and data running behind them.</p>
+        <div class="hero-ctas reveal">
+          <a href="#contact" class="btn-primary"><i class='bx bx-chat'></i> Let's Talk</a>
+          <a href="#projects" class="btn-ghost">View Projects <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        <div class="stack-tags reveal">
+          <span><i class='bx bx-code-alt'></i> Front-End</span>
+          <span><i class='bx bx-server'></i> Back-End</span>
+          <span><i class='bx bx-palette'></i> UI/UX</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="avatar-ring">
+          <div class="avatar-wrap">
+            <img src="P2.jpg" alt="Christian Ed Vincent M. Vasquez">
+          </div>
+        </div>
+        <div class="floating-card card-html" aria-hidden="true"><i class='bx bxl-html5'></i> HTML5</div>
+        <div class="floating-card card-css" aria-hidden="true"><i class='bx bxl-css3'></i> CSS3</div>
+        <div class="floating-card card-ui" aria-hidden="true"><i class='bx bx-palette'></i> UI/UX</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="eyebrow reveal">ABOUT ME</div>
+    <h2 class="section-title reveal">A little bit about myself</h2>
+    <div class="section-divider reveal"></div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>I'm <strong>Christian Ed Vincent M. Vasquez</strong>, 23 years old from Sambog, Corella, Bohol â€” a dedicated
+          Computer Science student who thrives on learning new technologies and pushing the boundaries of web design.
+        </p>
+        <p>I didn't come from a programming background, so every skill here was built one project at a time. That habit
+          of steady, hands-on learning is what I bring to every build.</p>
+        <p>I'm currently focused on sharpening my front-end fundamentals while getting more comfortable connecting pages
+          to real back-end logic and data.</p>
+      </div>
+      <div class="stats-grid reveal">
+        <div class="stat-card">
+          <div class="stat-icon"><i class='bx bx-calendar'></i></div>
+          <div class="stat-value">23</div>
+          <div class="stat-label">Years Old</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class='bx bx-book'></i></div>
+          <div class="stat-value">CS</div>
+          <div class="stat-label">Student</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class='bx bx-map'></i></div>
+          <div class="stat-value">Bohol</div>
+          <div class="stat-label">Based In</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class='bx bx-code-block'></i></div>
+          <div class="stat-value">1+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="eyebrow reveal">TOOLKIT</div>
+    <h2 class="section-title reveal">My Skills</h2>
+    <div class="section-divider reveal"></div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class='bx bxl-html5'></i></div>
+        <h3>HTML5</h3>
+        <p>Semantic markup and clean, accessible page structure.</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--fill:80%"></div>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class='bx bxl-css3'></i></div>
+        <h3>CSS3</h3>
+        <p>Flexbox, Grid, and responsive layouts across screen sizes.</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--fill:75%"></div>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon" style="background:var(--blue);"><i class='bx bxl-javascript'></i></div>
+        <h3>JavaScript</h3>
+        <p>DOM manipulation, events, and interactive UI behavior.</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--fill:60%"></div>
+        </div>
+        <span class="learning-badge"><i class='bx bx-trending-up'></i> Improving</span>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class='bx bxl-php'></i></div>
+        <h3>PHP</h3>
+        <p>Server-side logic connecting pages to data and behavior.</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--fill:55%"></div>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon" style="background:var(--amber);"><i class='bx bx-data'></i></div>
+        <h3>MySQL</h3>
+        <p>Relational databases, queries, and basic schema design.</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--fill:50%"></div>
+        </div>
+        <span class="learning-badge"><i class='bx bx-trending-up'></i> Learning</span>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon" style="background:var(--pink);"><i class='bx bx-palette'></i></div>
+        <h3>UI/UX</h3>
+        <p>Layout, color, and typography choices that guide the user.</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--fill:65%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="eyebrow reveal">MY WORK</div>
+    <h2 class="section-title reveal">Featured Projects</h2>
+    <div class="section-divider reveal"></div>
+    <div class="project-list">
+      <div class="project-card reveal">
+        <div class="project-visual">
+          <img src="AMT.png" alt="Aircraft Maintenance Borrowing Tool System">
+          <span class="project-year-badge">2026</span>
+        </div>
+        <div class="project-body">
+          <h3>Aircraft Maintenance Borrowing Tool System</h3>
+          <p>A web-based system that simplifies the borrowing and return of maintenance tools. Tracks requests,
+            availability, and user records to improve inventory management and accountability.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>Database</span><span>Responsive</span>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="eyebrow reveal">GET IN TOUCH</div>
+    <h2 class="section-title reveal">Let's Connect</h2>
+    <div class="section-divider reveal"></div>
+    <p class="contact-intro reveal">Have a project in mind, or just want to say hi? My inbox is always open.</p>
+    <div class="contact-box reveal">
+      <a class="contact-card" href="mailto:cevmvasquez@universityofbohol.edu.ph" aria-label="Send email">
+        <div class="contact-icon"><i class='bx bx-envelope'></i></div>
+        <div class="contact-info"><span class="contact-type">Email</span><span
+            class="contact-val">cevmvasquez@universityofbohol.edu.ph</span></div>
+        <i class='bx bx-chevron-right contact-arrow'></i>
+      </a>
+      <a class="contact-card" href="https://github.com/christianed-hash" target="_blank" rel="noopener"
+        aria-label="GitHub profile">
+        <div class="contact-icon"><i class='bx bxl-github'></i></div>
+        <div class="contact-info"><span class="contact-type">GitHub</span><span
+            class="contact-val">christianed-hash</span></div>
+        <i class='bx bx-chevron-right contact-arrow'></i>
+      </a>
+      <a class="contact-card" href="https://www.facebook.com/" target="_blank" rel="noopener"
+        aria-label="Facebook profile">
+        <div class="contact-icon"><i class='bx bxl-facebook'></i></div>
+        <div class="contact-info"><span class="contact-type">Facebook</span><span class="contact-val">Christian Ed
+            Vincent Vasquez</span></div>
+        <i class='bx bx-chevron-right contact-arrow'></i>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    Designed &amp; built by <span>Christian Ed Vincent M. Vasquez</span> Â· <span id="year"></span>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class='bx bx-up-arrow-alt'></i>
+  </button>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ---- Typing animation ----
+    const roles = [
+      'Aspiring Web Developer',
+      'CS Student @ UB',
+    ];
+    let roleIndex = 0, charIndex = 0, deleting = false;
+    const typedEl = document.getElementById('typed-role');
+    function type() {
+      const current = roles[roleIndex];
+      if (deleting) {
+        typedEl.textContent = current.slice(0, --charIndex);
+        if (charIndex === 0) { deleting = false; roleIndex = (roleIndex + 1) % roles.length; setTimeout(type, 400); return; }
+        setTimeout(type, 40);
+      } else {
+        typedEl.textContent = current.slice(0, ++charIndex);
+        if (charIndex === current.length) { deleting = true; setTimeout(type, 1800); return; }
+        setTimeout(type, 75);
+      }
+    }
+    setTimeout(type, 600);
+
+    // ---- Mobile nav ----
+    const navToggle = document.getElementById('navToggle');
+    const navTabs = document.getElementById('navTabs');
+    navToggle.addEventListener('click', () => {
+      const isOpen = navTabs.classList.toggle('is-open');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+    navTabs.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navTabs.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // ---- Scroll reveal ----
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => revealObserver.observe(el));
+
+    // ---- Skill bar animation ----
+    const skillFills = document.querySelectorAll('.skill-fill');
+    const skillObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.width = entry.target.style.getPropertyValue('--fill');
+          skillObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    skillFills.forEach(el => skillObserver.observe(el));
+
+    // ---- Scroll top + header + nav active ----
+    const scrollTopBtn = document.getElementById('scrollTop');
+    const header = document.getElementById('siteHeader');
+    window.addEventListener('scroll', () => {
+      scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+      header.classList.toggle('scrolled', window.scrollY > 20);
+      let current = '';
+      document.querySelectorAll('section[id]').forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 140) current = sec.id;
+      });
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === `#${current}`);
+      });
+    });
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
+</body>
+
+</html>
